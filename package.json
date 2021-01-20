@@ -1,0 +1,29 @@
+{
+  "name": "mattress-shop-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build",
+    "export": "NODE_ENV='production'; rm -rf /docs; next build; next export -o docs/",
+    "start": "next"
+  },
+  "author": "dsmurl",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "nodemon": "^2.0.6"
+  }
+}
